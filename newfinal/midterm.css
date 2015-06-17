@@ -1,0 +1,392 @@
+/*< Credit to Brandon Monsees>*/
+body {
+	background-color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+}
+
+.titlecontainer {
+	padding-top: 1px;
+	background-image: url(img/hero.jpg);
+	background-size: 1200px;
+	height: 200px
+}
+
+main {
+	overflow: auto;
+	height: 100%;
+	width: 75%;
+	margin: auto;
+	margin-top: 2%;
+}
+
+/*
+nav {
+	background-color: #efefef;
+	height: 5%;
+	width: 100%;
+	padding-top: 5px;
+	display: none;
+}
+*/
+
+.column1,
+.column2 {
+	/*	background-color: white;*/
+	/*	height: 90px;*/
+	
+	margin-top: 2%;
+	width: 50%;
+	float: left;
+}
+
+.content1,
+.content2 {
+	overflow: hidden;
+	width: 98%;
+}
+
+.content2 {
+	float: right;
+	min-height: 500px;
+}
+
+.notes {
+	height: 50px;
+	position: fixed;
+	width: 35.5%;
+	top: 280px;
+	text-align: center;
+}
+
+textarea {
+	width: 35%;
+	height: 35%;
+	position: fixed;
+	top: 350px;
+	font-family: serif;
+	font-size: 1em;
+}
+
+.print {
+	position: fixed;
+	top: 81%;
+	right: 14%;
+	background-color: #000000;
+	padding: 6px;
+	border-radius: 5px;
+}
+
+li {
+	display: inline;
+	padding: 1%;
+	margin-top: 1%;
+}
+
+.conceptbox {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+.check {
+	min-height: 50px;
+	width: auto;
+	float: right;
+	/*margin-top: 5px;
+    margin-right: 10px;*/
+}
+
+.concept {
+	/* width: 70%;*/
+	
+	float: left;
+	margin-left: 3%;
+	height: 50px;
+}
+
+h3 {
+	cursor: pointer;
+}
+
+.definition {
+	width: 100%;
+	padding-bottom: 10px;
+	display: none;
+	float: left;
+}
+
+footer {
+	width: 100%;
+	min-height: 100px;
+	background-color: #000000;
+	margin-top: 2%;
+	color: #ffffff;
+	position:
+}
+
+header {
+	background-color: #000000;
+	min-height: 100px;
+}
+
+button {
+	float: right;
+	font-size: 1em;
+	background-color: #efefef;
+	border: 1px solid #666;
+	color: #000;
+	text-decoration: none;
+	margin-top: -10px;
+}
+
+.closeButton {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+p {
+	margin-left: 3%;
+	width: 75%;
+	margin-bottom: 30px
+}
+
+.intro {
+	margin-left: 0;
+	width: 48%
+}
+
+.opening {
+	padding: 10px;
+}
+
+h1 {
+	color: #ffffff;
+	font-size: 4em;
+	margin-top: 60px
+}
+
+h5 {
+	padding-top: 15px
+}
+
+h2 {
+	font-size: 2.2em;
+}
+
+body {
+	padding: 30px;
+}
+
+.container {}
+
+.wrapper {
+	width: 100%;
+	height: 70px;
+	/*
+    border-bottom: solid;
+border-width: 1px;
+*/
+}
+
+.checkbox,
+h3,
+.more,
+.more2 {
+	margin: 4px;
+	clear: none;
+}
+
+.wrapper h3 {
+	cursor: pointer;
+}
+
+.example, .closeButton {
+border-radius: 5px;
+padding: 3px;	
+}
+
+h3 {
+	padding-top: 15px;
+	float: left;
+	font-size: 1.5em;
+}
+
+h3:hover {
+	color: #ed1b2d;
+}
+
+.checkbox {
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	float: right;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.more,
+.more2 {
+	display: none;
+	position: relative;
+	clear: both;
+}
+
+.more2 {
+	margin-top: 50px;
+}
+
+button {
+	margin: -20px 0 0 10px;
+	float: right;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.check {
+	display: none;
+}
+
+.check img {
+	margin: 0 auto;
+}
+
+.loadBar {
+	/*  margin-top: 20px;*/
+	
+	height: 30px;
+	width: 0;
+	background-color: #ed1b2d;
+	float: left;
+	position: fixed;
+	top: 81%;
+}
+
+.loadBarBkg {
+	height: 30px;
+	width: 25%;
+	background-color: #333;
+	float: left;
+	position: fixed;
+	top: 81%;
+}
+
+.resource {
+	width: 25%;
+	margin-left: 12%;
+	padding-top: 2px;
+}
+
+li {
+	display: block;
+	margin-top: 10px
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ed1b2d;
+}
+
+h4 {
+	margin: auto;
+	margin-top: 20px;
+}
+
+h5 {
+	width: 20%;
+	padding-bottom: 20px
+}
+
+@media print {
+	/* All your print styles go here */
+	
+	.print {
+		display: none;
+	}
+	.column1 {
+		display: none;
+	}
+	footer {
+		display: none;
+	}
+	.opening {
+		display: none;
+	}
+	textarea {
+		width: 80%;
+		min-height: 700px;
+		float: left;
+		top: 150px;
+	}
+	h2 {
+		display: none;
+	}
+	h1 {
+		text-align: center;
+		font-size: 2em;
+		margin: none;
+		padding: none;
+	}
+	textarea {
+		font-size: 14px;
+	}
+}
+
+@page {
+	margin: 0.5cm;
+}
+
+@media screen and (max-width: 1125px) {
+	h3 {
+		font-size: 1.2em;
+		width: 65%;
+	}
+	.intro {
+		width: 45%;
+	}
+	main {
+		width: 85%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	li {
+		display: block;
+		margin-top: 20px;
+		width: 100%;
+	}
+	.intro {
+		width: 100%;
+	}
+	h2 {
+		text-align: center;
+	}
+	h3 {
+		font-size: 1em;
+		width: 65%;
+	}
+	.column1 {
+		width: 100%;
+	}
+	.content1 {
+		width: 100%;
+	}
+	button {
+		font-size: 1.2em;
+		float: left;
+	}
+	.column2 {
+		display: none;
+	}
+	h1 {
+		font-size: 2.5em;
+	}
+}
+
+/*</Credit to Brandon Monsees>*/
